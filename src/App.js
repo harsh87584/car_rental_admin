@@ -19,7 +19,8 @@ import Editblogs from "./Pages/Editblogs";
 
 function App() {
   return (
-    <AdminAuthContextProvider>
+
+<AdminAuthContextProvider>
       {/* <Loginpage /> */}
       <Routes>
         <Route path="/" element={<Navigate to="/login" />} />
